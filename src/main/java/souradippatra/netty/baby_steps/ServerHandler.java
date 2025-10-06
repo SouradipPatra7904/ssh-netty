@@ -1,4 +1,4 @@
-package souradippatra.netty.noob;
+package souradippatra.netty.baby_steps;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
