@@ -1,0 +1,22 @@
+# Set default line endings for text files to LF (Unix-style)
+* text=auto eol=lf
+
+# Explicitly mark Java source files as text
+*.java text
+
+# Explicitly mark XML files (like pom.xml) as text
+*.xml text
+
+# Explicitly mark properties files as text
+*.properties text
+
+# Treat generated files as binary or exclude them from diffs/stats
+# Maven's target directory is typically ignored in .gitignore,
+# but if any generated files need specific handling, define them here.
+# For example, if you include compiled classes for some reason:
+# *.class binary
+
+# Mark specific files as binary if they are truly binary and not meant for diffing
+# For example, if you store images or other non-text assets in your repo
+# *.png binary
+# *.jpg binary
